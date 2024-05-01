@@ -1,4 +1,4 @@
-SELECT 
+/*SELECT 
     products_id, 
     date_date, 
     orders_id,
@@ -8,4 +8,4 @@ SELECT
     s.revenue - ROUND(s.quantity*p.purchase_price,2) AS margin
 FROM {{ref("stg_raw__raw_gz_sales")}} s
 LEFT JOIN {{ref("stg_raw__raw_gz_product")}} p 
-    USING (products_id) 
+    USING (products_id) */
